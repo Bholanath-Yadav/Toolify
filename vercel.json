@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": "vite",
-  "rootDirectory": "Toolify/artifacts/toolify",
+ 
   "buildCommand": "pnpm install --ignore-scripts && pnpm run build",
   "outputDirectory": "dist/public",
   "installCommand": "pnpm install --ignore-scripts",
