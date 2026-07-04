@@ -4,7 +4,7 @@
   "packageManager": "pnpm@9.15.0",
   "scripts": {
     "dev": "pnpm --dir Toolify/artifacts/toolify run dev",
-    "build": "pnpm --dir Toolify/artifacts/toolify run build",
+    "build": "pnpm --dir Toolify/artifacts/toolify install --ignore-scripts && pnpm --dir Toolify/artifacts/toolify run build",
     "preview": "pnpm --dir Toolify/artifacts/toolify run serve"
   },
   "engines": {
