@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://toolify.replit.app/sitemap.xml
+Sitemap: https://toolify.codewithprince.me/sitemap.xml
 
 # Disallow admin and auth pages
 Disallow: /admin
